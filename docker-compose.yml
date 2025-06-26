@@ -3,15 +3,13 @@ version: "3"
 services:
   db:
     container_name: mysqldb
-    build: 
-      context: .
-      dockerfile: database/Dockerfile
+    image: raviteja3929/bloodbank:db
     ports:
       - "3306:3306"
 
   app:
     container_name: bankapp
-    build: .
+    image: raviteja3929/bloodbank:app
     ports:
       - "1432:80"
     depends_on:
