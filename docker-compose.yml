@@ -40,7 +40,7 @@ services:
         constraints:
           - node.role == worker
     depends_on:
-      condition: service_healthy
+      - db  # Changed to list format
 
 volumes:
   db_data:
