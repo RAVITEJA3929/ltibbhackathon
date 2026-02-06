@@ -2,8 +2,8 @@
 
 session_start();
 
-$host = "devopsdb"; /* Host name */
-$user = "root"; /* User */
+$host = "mysqldb.cwjs6uyc4uf5.us-east-1.rds.amazonaws.com"; /* Host name */
+$user = "admin"; /* User */
 $password = "admin123"; /* Password */
 $dbname = "customers"; /* Database name */
 
