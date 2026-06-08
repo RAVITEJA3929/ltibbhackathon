@@ -2,7 +2,7 @@
 
 session_start();
 
-$host = "mysqldb"; /* Host name */
+$host = "mysqldb.cebgm4cowbnj.us-east-1.rds.amazonaws.com"; /* Host name */
 $user = "root"; /* User */
 $password = "admin123"; /* Password */
 $dbname = "customers"; /* Database name */
